@@ -38,6 +38,7 @@
                 android:padding="6dp"
                 android:text="@string/entertainment"
                 android:textSize="12sp"
+                android:textColor="@color/white"
                 android:backgroundTint="#164863"></Button>
 
             <Button
@@ -48,6 +49,7 @@
                 android:padding="6dp"
                 android:text="@string/general"
                 android:textSize="12sp"
+                android:textColor="@color/white"
                 android:backgroundTint="#164863"></Button>
 
             <Button
@@ -58,6 +60,7 @@
                 android:padding="6dp"
                 android:text="@string/health"
                 android:textSize="12sp"
+                android:textColor="@color/white"
                 android:backgroundTint="#164863"></Button>
 
             <Button
@@ -68,6 +71,7 @@
                 android:padding="6dp"
                 android:text="@string/science"
                 android:textSize="12sp"
+                android:textColor="@color/white"
                 android:backgroundTint="#164863"></Button>
 
 <!--            <Button-->
@@ -87,6 +91,7 @@
                 android:padding="6dp"
                 android:text="@string/technology"
                 android:textSize="12sp"
+                android:textColor="@color/white"
                 android:backgroundTint="#164863">
 
             </Button>
@@ -106,7 +111,8 @@
             app:defaultQueryHint="Search News"
             app:iconifiedByDefault="false"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" >
+            android:layout_height="?attr/actionBarSize"
+            android:backgroundTint="@color/white">
 
         </androidx.appcompat.widget.SearchView>
         
@@ -116,7 +122,8 @@
         android:id="@+id/recycler_main"
         android:layout_margin="8dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white">
 
     </androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>
