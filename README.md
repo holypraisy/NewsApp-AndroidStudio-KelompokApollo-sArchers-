@@ -6,10 +6,11 @@
 3. Marcelino Imanuel Wuntuan 		210211060310
 4. Jorgha Akram Aryandi		      230214060116
 
-# Video Presentasi 
+# Video Presentasi :
 
 
-# FIle Apk 
+# FIle Apk :
+
 
 
 
